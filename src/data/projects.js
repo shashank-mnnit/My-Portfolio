@@ -1,9 +1,9 @@
-import proximaCover from '../assets/APP UI Cover.png';
-import proximaExtended from '../assets/APP UI PAGE 3+4.png';
-import evBike from '../assets/ev bike.png';
-import krypto from '../assets/krypto-UI(----Shashank).png';
-import detective from '../assets/PRIVATE DETETCTIVE AGENCY UI.jpg';
-import finalNavBar from '../assets/final nav bar.png';
+import proximaCover from '../assets/APPUICove.jpeg';
+import proximaExtended from '../assets/APPUIPAGE3.jpeg';
+import evBike from '../assets/evbik.jpeg';
+import krypto from '../assets/krypto-UI----Shashan.jpeg';
+import detective from '../assets/PRIVATEDETETCTIVEAGENCYUI.jpg';
+import finalNavBar from '../assets/finalnavba.jpeg';
 
 export const projects = [
   {
