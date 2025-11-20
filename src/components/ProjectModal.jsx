@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const ProjectModal = ({ project, onClose }) => {
+  useEffect(() => {
+    if (project) {
+      document.body.style.overflow = 'hidden';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [project]);
+
   if (!project) return null;
 
   return (
@@ -42,7 +51,10 @@ const ProjectModal = ({ project, onClose }) => {
              )}
           </div>
 
-          <div className="p-8 max-h-[70vh] overflow-y-auto custom-scrollbar">
+          <div 
+            className="p-8 max-h-[70vh] overflow-y-auto custom-scrollbar"
+            data-lenis-prevent
+          >
             <div className="mb-8">
               <h2 className="text-3xl font-bold text-white mb-2">{project.title}</h2>
               <p className="text-primary text-lg">{project.type}</p>
