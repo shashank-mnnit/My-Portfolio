@@ -27,7 +27,7 @@ const ProjectModal = ({ project, onClose }) => {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-secondary w-full max-w-4xl rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative my-8"
+          className="bg-secondary w-full max-w-4xl rounded-3xl border border-white/10 shadow-2xl overflow-hidden relative flex flex-col max-h-[90vh]"
           onClick={(e) => e.stopPropagation()}
         >
           <button 
@@ -37,7 +37,7 @@ const ProjectModal = ({ project, onClose }) => {
             <X size={24} />
           </button>
 
-          <div className="h-96 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden">
+          <div className="h-64 md:h-96 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative overflow-hidden shrink-0">
              {project.image ? (
                <img 
                  src={project.image} 
@@ -52,7 +52,7 @@ const ProjectModal = ({ project, onClose }) => {
           </div>
 
           <div 
-            className="p-8 max-h-[70vh] overflow-y-auto custom-scrollbar"
+            className="p-8 overflow-y-auto custom-scrollbar flex-1"
             data-lenis-prevent
           >
             <div className="mb-8">
