@@ -197,7 +197,7 @@ export const profile = {
     linkedin: "https://www.linkedin.com/in/shekhar-mnnit",
     github: "https://github.com/shashank-mnnit",
     twitter: "https://x.com/Shashank_NIT",
-    resume: "https://drive.google.com/file/d/1Y4VeUx-T9f4nbIgGMopdCGXIFUex2_zW/view?usp=sharing",
+    resume: "https://drive.google.com/drive/folders/1-xhUv6YVe31VHaPlrvVgoEHsStfDN98y?usp=sharing",
     email: "shekhar.mnnit26@gmail.com"
   }
 };
