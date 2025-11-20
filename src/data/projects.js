@@ -37,7 +37,8 @@ export const projects = [
     problem: "Most chatbots feel generic and transactional. I wanted to design a personal, modern, and dynamic chatbot experience with emotional warmth.",
     approach: "Using structured UX processes, I first built wireframes to define layout, grouping, and hierarchy. Then I moved into high-fidelity screens using gradients, spacing systems, and large typography.",
     outcome: "A polished, modern mobile experience with onboarding screens, conversation UI, prompt utilities, histories, and a cohesive visual identity.",
-    prototypeDesc: "A fully interactive flow showcasing: Swipe-based onboarding, Smooth CTA transitions, Chat animations, Image/card responses, Prompt input interactions, Menu + settings animations"
+    prototypeDesc: "A fully interactive flow showcasing: Swipe-based onboarding, Smooth CTA transitions, Chat animations, Image/card responses, Prompt input interactions, Menu + settings animations",
+    link: "https://www.figma.com/proto/vl7aGphaZFhsovZPqoPL4g/Chatbot-UI-%E2%80%93-Dynamic-Prototype-for-AI-Interfaces--BY-SHASHANK-?node-id=2343-347&t=m5Ao5yIx49Q5Be2e-1"
   },
   {
     id: 2,
